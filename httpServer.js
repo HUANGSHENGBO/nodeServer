@@ -5,11 +5,9 @@ const url = require('url');
 const querystring = require('querystring');
 
 
-const PORT = 2017;
+const PORT = 2000;
 const HOME_NAME = '0.0.0.0';
 
-
-// 创建服务
 http.createServer(clientConnect).listen(PORT, HOME_NAME, (err) => {
     if(err){ 
         throw err; 
